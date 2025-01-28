@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  mobile_number VARCHAR(250) NOT NULL,
+  pin VARCHAR(250) NOT NULL
+);
+
+INSERT INTO users (mobile_number, pin) VALUES
+  ('9860151140', '4413'),
+  ('9901753693', '5413');
